@@ -1,0 +1,47 @@
+[
+
+	{
+		"title": "Fifty Shades of Grey",
+		"description": "Es la primera entrega de una trilogía que describe la relación entre una recién graduada de la universidad, Anastasia Steele, y el joven magnate de negocios Christian Grey",
+		"year": 2011,
+		"pages": 540,
+		"isbn": "978-0-354-80349-8",
+		"editorial": "Vintage Books", 
+		"edition": 1,
+		"author": "E.L. James",
+		"cover": "cincuenta.png",
+		"category_id": 1
+
+	},
+
+	{
+
+		"title": "Fifty Shades Darker",
+		"description": "Narrada en gran medida en Seattle, es la segunda entrega de una trilogía que describe la relación entre una recién graduada de la universidad, Anastasia Steele, y un joven magnate de negocios, Christian Grey. Se destaca por sus escenas explícitamente, con elementos de las prácticas que involucran: disciplina, dominación, masoquismo (BDSM).",
+		"year": 2012,
+		"pages": 544,
+		"isbn": "978-0-354-81349-8",
+		"editorial": "Vintage Books", 
+		"edition": 1,
+		"author": "E.L. James",
+		"cover": "cincuenta.png",
+		"category_id": 2
+
+	},
+
+	{
+
+		"title": "Fifty Shades Freed",
+		"description": "Es una película dramática, romántica y erótica dirigida por James Foley, siendo la última entrega de la trilogía",
+		"year": 2013,
+		"pages": 606,
+		"isbn": "978-0-354-80329-8",
+		"editorial": "Vintage Books", 
+		"edition": 1,
+		"author": "E.L. James",
+		"cover": "cincuenta.png",
+		"category_id": 3
+
+	}
+
+]
