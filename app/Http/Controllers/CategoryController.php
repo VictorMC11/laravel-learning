@@ -72,9 +72,15 @@ class CategoryController extends Controller
      * @param  \App\Models\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Category $category)
+    public function update(Request $request)
     {
-        //
+        $category = Category::find($request->id);
+        if($category){
+            if($category->update($request->all())){
+                return redirect()->back();
+            }
+        }
+        return redirect()->back();
     }
 
     /**
@@ -85,6 +91,18 @@ class CategoryController extends Controller
      */
     public function destroy(Category $category)
     {
-        //
+        
+        if($category){
+            if($category->delete()){
+                return response()->json([
+                    'message'=> 'Registro eliminado correctamente',
+                    'code'=>'200'
+                ]);
+            }
+        }
+        return response()->json([
+            'message'=> 'No se pudo eliminar el registro',
+            'code'=>'400'
+        ]);
     }
 }
